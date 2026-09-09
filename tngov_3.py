@@ -67,6 +67,7 @@ def build_and_save_vector_store():
     vector_store.save_local(VECTOR_DB_DIR)
     print(f"Vector Store successfully created and saved at './{VECTOR_DB_DIR}'")
 
-
+#Convert the Json to raw docs and then split the docs into chunks,embeddings and then create the vector store and save it locally
+#Vector Store successfully created and saved
 if __name__ == "__main__":
     build_and_save_vector_store()

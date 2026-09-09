@@ -98,6 +98,6 @@ def main():
     finally:
         builder.close()
 
-
+#map JSON scheme attributes into Graph entities
 if __name__ == "__main__":
     main()

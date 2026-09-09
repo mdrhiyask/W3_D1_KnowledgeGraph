@@ -86,7 +86,7 @@ def parse_scheme_page(url, fallback_title):
         print(f"Error scraping {url}: {e}")
         return None
 
-
+#Fetching the data from the links and dump in to the json file and save it in local
 def main():
     scheme_links = fetch_scheme_links()
     scraped_data = []
